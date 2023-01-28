@@ -1,5 +1,4 @@
 section.design{
-    font-family: "Montserrat",sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,10 +7,11 @@ section.design{
 }
 
 section.design .superior{
-    height: 685px;
     width: 100%;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
+    transition-duration: 0.2s;
 }
 
 hr{
