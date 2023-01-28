@@ -17,6 +17,7 @@ section.design .superior{
 hr{
     border: 1px solid #dedede;
     width: 580px;
+    transform: translateX(50%);
 }
 
 section.design .titulo{
@@ -28,7 +29,7 @@ section.design .titulo{
     margin-bottom: 50px;
 }
 
-section.design .linha {
+section.design .linha{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,24 +40,49 @@ section.design .linha {
 section.design .icone{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
+    height: 205px;
+}
+
+section.design .icone img{
+    height: 77px;
 }
 
 section.design h1, section.design h2{
     text-align: center;
     flex: 1;
     margin-bottom: 20px;
-
 }
 
 section.design h1{
+    line-height: 30px;
     font-size: 24px;
     font-weight: 200;
     color: #030140;
+    margin-top: 24px;
 }
 
 section.design h2{
     font-size: 16px;
     font-weight: 100;
     color: #373f41;
+}
+
+section.design .inferior{
+    background-color: #030140;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.design .inferior .lista-logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.design .inferior .logo img{
+    margin: 60px;
+    width: 200px;
+    margin: auto 0;
 }
