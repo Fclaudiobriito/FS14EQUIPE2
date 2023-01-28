@@ -1,0 +1,10 @@
+.footer-main-area{
+  position: relative;
+  background-color: #f24b78;
+  min-height: 242px;
+  padding: 55px 0;
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+}
+
