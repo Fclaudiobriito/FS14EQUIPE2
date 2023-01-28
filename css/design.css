@@ -6,6 +6,8 @@ section.design{
     text-decoration: none;
 }
 
+/* ----------------Parte Superior---------------- */
+
 section.design .superior{
     width: 100%;
     margin-bottom: 50px;
@@ -14,7 +16,7 @@ section.design .superior{
     transition-duration: 0.2s;
 }
 
-hr{
+section.design hr{
     border: 1px solid #dedede;
     width: 580px;
     transform: translateX(50%);
@@ -68,6 +70,8 @@ section.design h2{
     font-weight: 100;
     color: #373f41;
 }
+
+/* ----------------Parte Inferior---------------- */
 
 section.design .inferior{
     background-color: #030140;
