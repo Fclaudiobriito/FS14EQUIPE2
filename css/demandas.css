@@ -1,0 +1,71 @@
+.demanda{
+    margin: 80px 0;
+}
+
+.demanda .container{
+    width: calc(100% - 40px);
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.titulo-h2.centro{
+ text-align: center;
+}
+
+.titulo-h2.dark{
+    color: #030140;
+}
+
+.titulo-h2.demanda-titulo{
+    font-size: 48px;
+}
+
+.titulo-h2{
+    font-weight: 700;
+    font-family: "Hellix",sans-serif;
+    margin-bottom: 50px;
+    line-height: 125%;
+}
+
+.demanda-lista{
+    width: 100%;
+    grid-gap: 55px 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.demanda-item{
+    border-radius: 15px;
+    background: #fff;
+    padding: 30px 35px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 5%);
+}
+
+.demanda-item .demanda-item-imagem{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demanda-item .demanda-item-imagem imagem{
+    max-width: 135px;
+    width: auto;
+    display: block;
+}
+
+.demanda-item .demanda-item-info{
+    margin-top: 20px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.demanda-item .demanda-item-info p{
+    text-align: center;
+    font-size: 18;
+    line-height: 150%;
+    color: #373f41;
+    font-family: "Montserrat",sans-serif;
+}
